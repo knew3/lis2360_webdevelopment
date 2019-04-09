@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/* CSS Document created by Kelly Newbrough, 03/26/2019*/
+
+body {
+	font-family: Georgia, Courier, Arial;
+	font-size: 20px;
+	line-height: 1.5em;
+	color: #FFFFFF;
+	background-color: #B11F7A;
+	padding: 40px 40px 40px 40px;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.1em;
+	color: #ffffff;
+	font-size: 17px;
+}
+h1 {
+	font-size: 30px;
+	padding: 4px 4px 4px 4px;
+	letter-spacing: .19em;
+	line-height: 3em;
+	text-shadow: 1px 1px 2px pink;
+}
+h2 {
+	font-size: 25px;
+	padding: 6px;
+	font-variant: small-caps;
+	letter-spacing: .2em;
+	background-color: #DD1591;
+;
+}
+h3 {
+	font-size: 25px;
+	letter-spacing: 0.2em;
+	border-bottom-width: 2px;
+	border-bottom-style: inset;
+	border-bottom-color: #DD1591;
+	padding: 4px 4px 4px 4px;
+	font-variant: small-caps;
+	font-style: italic;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #ffffff;
+	text-decoration: none;
+	text-shadow: 1px 1px 2px pink;
+}
+a:visited {
+	font-weight: bold;
+	color: #ffffff;
+	text-decoration: none;
+}
+a:hover {
+	color: #EF119A;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	margin-left: 15px;
+}
+ol {
+	margin-left: 15px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #ffffff .5px;
+}
+td {
+	padding: 10px;
+	border: solid #ffffff .5px;
+}
+th {
+	
+	background-color: #ffffff;
+	text-align: center;
+	padding: 10px;
+	border: solid #ffffff 2px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #ffffff 2px;
+	text-shadow: 1px 1px 2px pink;
+}
+
+img {
+	border: solid #DD1591 2px;
+    text-shadow: 1px 1px 2px pink;
+}
+
+iframe {
+	border: solid #DD1591 2px;
+	padding: 10px;
+	margin: 10px;
+}
