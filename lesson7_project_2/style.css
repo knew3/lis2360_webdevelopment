@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    padding:20px;
+    font-family: Georgia, sans-serif;
+    font-size: 27px;
+}
+
+h2 {
+    padding:20px;
+    font-family: Georgia, sans-serif;
+    font-size: 27px;
+}
+
+h3{
+    font-family: Georgia, sans-serif;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 1.5em;
+}
+#splash{
+   
+    background: url(images/feminism.jpg) no-repeat center top fixed;
+   	background-size: cover;
+}
+
+#overview{
+    background-color: #DD1591;
+    padding: 20px;
+ 
+}
+
+#feministmovements{
+     background-color: #EF119A;
+     padding: 20px;
+   
+}
+
+#media{
+    background-color: #F6E0E0;
+    padding: 20px;
+    background: url(images/Socialmedia-pm.png) no-repeat center top fixed;
+   	background-size: cover;
+}
+
+#footer{
+    background-color: #F2F2F2;
+   
+}
+.container {
+  width: 960px; /* static width container always stays at this width no matter what the window size */
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#navbar{
+	position: fixed; /* navbar should always be shown even when page is scrolled */
+	top: 0;
+	width: 100%;
+	height: 54px;
+	background-color: rgba(255, 255, 255, 0.8); 
+}	
+/* horizontal menu bars are typically created using a styled unordered list. Here's how! */
+ul#menu {
+	list-style: none; /* eliminates bullets */
+	/* adjust padding top to adjust nav bar vertical position */
+	padding-top: 0px;
+} 
+ul#menu li {
+	float: left; /* changes list from vertical to horizontal */
+	padding-bottom: 20px;
+} 
+ul#menu li a.button {
+	font-size: 16px;
+	text-decoration: none;
+	/* this padding defines the size of the buttons */
+	/*padding: 20px 100px 20px 100px;*/
+    padding: 20px 50px 20px 50px; 
+}
+/* change button color when mouse hovers over */
+ul#menu li a.button:hover {
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+#title-page{
+  width: 100%;
+  padding-top: 50px; /* provides a lot of space above title to view the background image */
+  color: #fff;
+  text-align: center;
+}
+
+#title-page h1 { 
+font-family: 'Amaranth', sans-serif; 
+font-size: 30px; 
+text-shadow: 3px 3px #C11C82; 
+} 
+
+#title-page h3 {
+  font-size: 20px;
+  font-style: italic;
+  padding-top: 500px;
+  margin: 0 40px;
+  text-align: center;
+}
