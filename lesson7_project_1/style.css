@@ -55,7 +55,7 @@ a:visited {
 	text-decoration: none;
 }
 a:hover {
-	color: #fff;
+	color: #EF119A;
 }
 
 /* list styles ----------------------------- */
@@ -97,56 +97,4 @@ iframe {
 	border: solid #DD1591 2px;
 	padding: 10px;
 	margin: 10px;
-}
-/* DIV STYLES FOR PAGE LAYOUT */
-
-#container {
-    width: 900px;
-    margin: 0 auto;
-    border: 10px solid rgba(113,60,141)
-    overflow: hidden; 
-}
-#header{
-    width: 100%;
-    background-color: #B11F7A;
-}
-#content{
-     width: 600px;
-     float: left;
-    
-}
-#sidebar{
-    width:280px;
-    float: left;
-    margin-top: 50px;
-    margin-right: 20px;
-    
-}
-#sidebar2 p{
-    padding: 10px;
-    background: solid rgba(113,60,141);
-    border: 1px solid #fff;
-    border-radius: 12px;
-    box-shadow: 10px 10px 5px #888;
-}
-#sidebar2{
-    width:200px;
-    float: right;
-    margin-top: 20px;
-    margin-right: 10px;
-   
-}
-#sidebar p{
-    padding: 10px;
-    background: solid rgba(113,60,141);
-    border: 1px solid #fff;
-    border-radius: 12px;
-    box-shadow: 10px 10px 5px #888;
-}
-#footer{
-    width: 100%;
- 
-    background-color: #B11F7A;
-    border-bottom: 1px solid rgba(113,60,141);
-    clear: both;
 }
