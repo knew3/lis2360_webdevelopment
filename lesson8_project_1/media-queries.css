@@ -1,0 +1,92 @@
+@charset "UTF-8";
+/* CSS Document */
+@media screen and (max-width: 1060px) {
+    .container {
+  width: 90%; /* static width container always stays at this width no matter what the window size */
+    }
+    half_container {
+        width: 80%;
+        float: none;
+        margin-left: auto;
+        margin-right: auto; 
+  
+    }
+    ul#menu li a.button {
+	/* this padding defines the size of the buttons */
+	/*padding: 20px 100px 20px 100px;*/
+    padding: 20px 50px; 
+    }
+    iframe{
+        width: 100%;
+    }
+    #title-page{
+        width: 100%;
+        padding-top: 100px; /* provides a lot of space above title to view the background image */
+        color: #fff;
+        text-align: center;
+    }
+    #splash{
+        height: 542px;
+        background-size:1060px;
+    }
+    p{
+        font-size: 1em;
+    }
+    #media{
+    padding: 20px;
+    background: url(images/socialmedia.jpg) no-repeat center top fixed;
+   	background-size: 1000px;
+    }
+}   
+@media screen and (max-width: 767px) {
+    ul#menu li a.button {
+	/* this padding defines the size of the buttons */
+	/*padding: 20px 100px 20px 100px;*/
+    padding: 20px;
+    font-size: .9em;
+    }
+    #title-page{
+        width: 100%;
+        padding-top: 50px; /* provides a lot of space above title to view the background image */
+        color: #fff;
+        text-align: center;
+    }
+    #splash{
+        height: 542px;
+        background-size:767px;
+    }
+    img{
+        width: 100%;
+        height: auto;
+    }
+    #media{
+    background-color: #F6E0E0;
+    padding: 20px;
+    background: url(images/socialmedia.jpg) no-repeat center top fixed;
+   	background-size: 767px;
+    }
+    }
+@media screen and (max-width: 480px) {
+    ul#menu li a.button {
+	/* this padding defines the size of the buttons */
+	/*padding: 20px 100px 20px 100px;*/
+    padding: 10px;
+    font-size: .9em;
+    }
+     #title-page{
+        width: 100%;
+        padding-top: 0px; /* provides a lot of space above title to view the background image */
+        color: #fff;
+        text-align: center;
+    }
+    #splash{
+        height: 340px;
+        background-size:480px;
+    }
+      #media{
+    background-color: #F6E0E0;
+    padding: 20px;
+    background: url(images/socialmedia.jpg) no-repeat center top fixed;
+   	background-size: 480px;
+    }
+}
