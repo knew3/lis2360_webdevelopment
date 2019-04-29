@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Carousel Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="css/carousel.css" rel="stylesheet">
+    
+    <style>
+      .navbar-inverse {
+        background-color: #000000;
+        border-color: #f33cac;
+      }
+      .navbar-inverse .navbar-brand {
+        color: #f33cac;
+      }
+      .navbar-inverse .navbar-nav > li > a {
+        color: #f33cac;
+      }
+      @media (min-width: 768px) {
+        .navbar-wrapper .navbar {
+        border-radius: 30px;   
+        }
+        .navbar-wrapper {
+        margin-top: 0px;   
+        }
+      }
+      .carousel-inner > .item > img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        height: auto;
+       }
+    @media (max-width: 885px){
+      .carousel {
+        height: 390px;
+      }
+      .carousel .item{
+        height: 390px;
+        background-color: #fff;
+       }
+      }
+    @media (max-width: 719px){
+      .carousel-inner > .item > img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        height: 400px ;
+       }
+      }
+    .btn-primary {
+    color: #fff;
+    background-color: #f33cac;
+    border-color: #f33cac;
+}
+    </style>
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Feminism Through Social Media</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Media<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">YouTube video</a></li>
+                    <li><a href="#">References</a></li>
+                    <li><a href="#">Gallery</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="images/2ndwavemarch.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Feminist History</h1>
+              <p>Touch on the history of feminism.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn More</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="second-slide" src="images/twitterlogo.png" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Social Media Aspects</h1>
+              <p>Look at how social media has changed feminsm.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn More</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" src="images/feministlogo.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Feminism Through Social Media</h1>
+              <p>Look at different social media movements for feminsim.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn More</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="fourth-slide" src="images/fourthslide.jpg" alt="Fourth Slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>How Social Media And Feminism Intersect.</h1>
+              <p>Look at how they both overlap with each other.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn More</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/sheinspiresme.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>#Sheinspiresme</h2>
+          <p>This was a hashtag created to create a culture of women supporting women.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/womensmarch.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Women's March</h2>
+          <p>Women gathered to raise awareness of feminism. Over 500,000 women marched on the nation's capital, and it was estimated that 4.2 million people marched around the world!</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/metoo.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>#MeToo</h2>
+          <p>This spread awareness about sexual assault and gave women a voice to share their own experience. This led to the creation of the Time's Up Initiative, started by 300 women in Hollywood.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Feminism Beginnings<span class="text-muted"></span></h2>
+          <p class="lead"> Feminism is strongly known for beginning in the early eighteen hundreds resulting later with the 19th amendment introducing the womens' right to vote, and then with second wave feminism in the sixties
+                and seventies with the more aggressive feminism. Today a new feminism has emerged and has become more widespread, especially with the power of social media. This new wave of feminism has
+                used social media to it's full potential, bringing issues to light, giving platforms for discussions. The more level playing field that social media creates gives women a fair platform
+                compared to other media outletes. This new frontier has created feminist discussions bringing people from all walks of life together for a common goal.</p>
+        </div>
+        <div class="col-md-5">
+          <img src="images/feminismbeginnings.jpg" width= 500px height= 500px alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Feminsim Evolution <span class="text-muted"></span></h2>
+          <p class="lead">Today a new feminism has emerged and has become more widespread, especially with the power of social media. This new wave of feminism has
+                used social media to it's full potential, bringing issues to light, giving platforms for discussions. The more level playing field that social media creates gives women a fair platform
+                compared to other media outletes. This new frontier has created feminist discussions bringing people from all walks of life together for a common goal.</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img src="images/marchsign.jpg" width="480px height = 500pxalt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Social Media<span class="text-muted"></span></h2>
+          <p class="lead">Social Media has encouraged people to speak out about what is wrong and what we can do together to fix it. The modern-day feminism has used social media  to the fullest, using it to
+                organize and bring women together and representing women different than the traditional media. With the power of social media it can be used to bridge the gap that women are born with .
+                The awareness raised through social media has started the conversation that needed to be have.</p>
+        </div>
+        <div class="col-md-5">
+          <img src="images/twitterlogo.png" width=500px width 500px alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>Kelly Newbrough; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="js/holder.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
